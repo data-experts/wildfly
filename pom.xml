@@ -113,7 +113,9 @@
     <properties>
 
         <!-- Repo-URLs an unseren Nexus angepasst -->
+        <jboss.releases.repo.id>deg-releases</jboss.releases.repo.id>
         <jboss.releases.repo.url>https://nexus-be.data-experts.net:8443/repository/maven-releases</jboss.releases.repo.url>
+        <jboss.snapshots.repo.id>deg-snapshots</jboss.snapshots.repo.id>
         <jboss.snapshots.repo.url>https://nexus-be.data-experts.net:8443/repository/maven-snapshots/</jboss.snapshots.repo.url>
 
 
