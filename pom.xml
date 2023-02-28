@@ -111,6 +111,12 @@
     </scm>
 
     <properties>
+
+        <!-- Repo-URLs an unseren Nexus angepasst -->
+        <jboss.releases.repo.url>https://nexus-be.data-experts.net:8443/repository/maven-releases</jboss.releases.repo.url>
+        <jboss.snapshots.repo.url>https://nexus-be.data-experts.net:8443/repository/maven-snapshots/</jboss.snapshots.repo.url>
+
+
         <!-- Release Info.
              Drives properties that end up in MANIFEST.mf files produced by this build
              and some are also used in the pom 'scm' element.
@@ -619,9 +625,9 @@
         <version.xom>1.3.7</version.xom>
 
 
-        <!-- 
+        <!--
             WildFly Preview version properties.
-            Property names should be in the form 'preview.version.xxx'. 
+            Property names should be in the form 'preview.version.xxx'.
         -->
 
     </properties>
@@ -2091,7 +2097,7 @@
                 <surefire.default-test.phase>none</surefire.default-test.phase>
             </properties>
         </profile>
-        
+
         <profile>
             <id>bootable.ee9.test.profile</id>
             <activation>
