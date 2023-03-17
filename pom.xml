@@ -125,9 +125,9 @@
              Do not use these properties for other purpose.
         -->
         <jboss.as.release.codename>N/A</jboss.as.release.codename>
-        <jboss.as.scm.connection>git@github.com:wildfly/wildfly.git</jboss.as.scm.connection>
-        <jboss.as.scm.url>https://github.com/wildfly/wildfly</jboss.as.scm.url>
-
+        <jboss.as.scm.connection>git@github.com:data-experts/wildfly.git</jboss.as.scm.connection>
+        <jboss.as.scm.url>https://github.com/data-experts/wildfly</jboss.as.scm.url>
+      
         <!-- Other release identification information that drives how the built server identifies itself -->
         <full.dist.product.release.name>WildFly Full</full.dist.product.release.name>
         <full.dist.product.slot>main</full.dist.product.slot>
