@@ -38,7 +38,7 @@
         Maintain separation between the artifact id and the version to help prevent
         merge conflicts between commits changing the GA and those changing the V.
     -->
-    <version>27.0.1.2.deg-SNAPSHOT</version>
+    <version>27.0.1.2.deg</version>
 
     <packaging>pom</packaging>
 
@@ -611,7 +611,7 @@
         <version.org.testcontainers>1.16.0</version.org.testcontainers>
         <version.org.testng>7.4.0</version.org.testng>
         <version.org.wildfly.arquillian>5.0.0.Alpha5</version.org.wildfly.arquillian>
-        <version.org.wildfly.core>19.0.1.1.deg-SNAPSHOT</version.org.wildfly.core>
+        <version.org.wildfly.core>19.0.1.1.deg</version.org.wildfly.core>
         <version.org.wildfly.extras.creaper>1.6.2</version.org.wildfly.extras.creaper>
         <legacy.version.org.wildfly.http-client>1.1.15.Final</legacy.version.org.wildfly.http-client>
         <version.org.wildfly.http-client>2.0.0.Final</version.org.wildfly.http-client>
