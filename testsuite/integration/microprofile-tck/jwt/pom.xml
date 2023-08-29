@@ -28,7 +28,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-ts-integ-mp</artifactId>
-        <version>27.0.1.2.deg</version>
+        <version>27.0.1.3.deg-SNAPSHOT</version>
     </parent>
 
     <artifactId>wildfly-ts-integ-mp-jwt</artifactId>
